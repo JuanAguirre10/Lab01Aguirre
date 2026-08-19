@@ -12,6 +12,7 @@
 
         public override void MostrarInformacion()
         {
+            Console.WriteLine("Tipo: Empleado");
             base.MostrarInformacion();
             Console.WriteLine("Sueldo: " + Sueldo);
         }

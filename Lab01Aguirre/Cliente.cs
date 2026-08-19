@@ -12,6 +12,7 @@
 
         public override void MostrarInformacion()
         {
+            Console.WriteLine("Tipo: Cliente");
             base.MostrarInformacion();
             Console.WriteLine("Litros Cargados: " + LitrosCargados);
         }
